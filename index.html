@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Carrito Compra</title>
+  </head>
+  <body>
+    <div class="cart__container">
+      <header class="cart__header">
+        <h1 class="cart__title">Lista de la compra</h1>
+        <ul class="cart__header__menu">
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Principal</a>
+          </li>
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Lista</a>
+          </li>
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Acerca de la lista</a>
+          </li>
+        </ul>
+      </header>
+      <main class="cart__order__container">
+        <section class="cart__order__status">
+          <i class="status__icon--plus"> </i>
+          <h2 class="order-status__accumulated">2/3 comprados</h2>
+        </section>
+        <section class="cart__order__list__container">
+          <ul class="order__list">
+            <li class="order__list__item">
+              <input
+                type="checkbox"
+                class="order__list__item_cb"
+                name=""
+                id=""
+              />
+              <p
+                class="order__list__item__name order__list__item__name--removed"
+              >
+                Pan
+              </p>
+              <p class="order__list__item__price">0.75 €</p>
+              <i class="remove-icon"></i>
+            </li>
+            <li class="order__list__item">
+              <input
+                type="checkbox"
+                class="order__list__item_cb"
+                name=""
+                id=""
+              />
+              <p
+                class="order__list__item__name order__list__item__name--removed"
+              >
+                Azúcar
+              </p>
+              <p class="order__list__item__price"></p>
+              <i class="remove-icon"></i>
+            </li>
+            <li class="order__list__item">
+              <input
+                type="checkbox"
+                class="order__list__item_cb"
+                name=""
+                id=""
+              />
+              <p
+                class="order__list__item__name order__list__item__name--removed"
+              >
+                Leche
+              </p>
+              <p class="order__list__item__price">1.20 €</p>
+              <i class="remove-icon"></i>
+            </li>
+            <p class="order__list__total-price">1.95 €</p>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
