@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Carrito Compra</title>
   </head>
@@ -25,7 +32,9 @@
       </header>
       <main class="cart__order__container">
         <section class="cart__order__status">
-          <i class="status__icon--plus">TODO +</i>
+          <a href="form.html"
+            ><i class="cart__order__status__icon fas fa-plus-circle"> </i
+          ></a>
           <h2 class="order-status__accumulated">2/3 comprados</h2>
         </section>
         <section class="order-list">
@@ -43,8 +52,8 @@
                 </p>
               </div>
               <div class="item__price">
-                <p class="item__price__amount">0.75 €</p>
-                <i class="remove-icon"></i>
+                <span class="item__price__amount">0.75 €</span>
+                <i class="remove__icon fas fa-times"></i>
               </div>
             </li>
             <li class="item">
@@ -58,8 +67,8 @@
                 <p class="item__product__name">Azúcar</p>
               </div>
               <div class="item__price">
-                <p class="item__price__amount"></p>
-                <i class="remove-icon"></i>
+                <span class="item__price__amount"></span>
+                <i class="remove__icon fas fa-times"></i>
               </div>
             </li>
             <li class="item">
@@ -70,11 +79,13 @@
                   name=""
                   id=""
                 />
-                <p class="item__product__name">Leche</p>
+                <p class="item__product__name item__product__name--removed">
+                  Leche
+                </p>
               </div>
               <div class="item__price">
-                <p class="item__price__amount">1.20 €</p>
-                <i class="remove-icon"></i>
+                <span class="item__price__amount">1.20 €</span>
+                <i class="remove__icon fas fa-times"></i>
               </div>
             </li>
           </ul>
