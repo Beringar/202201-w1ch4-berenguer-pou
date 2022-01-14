@@ -118,6 +118,7 @@ a > .cart__order__status__icon {
 .item__product__name,
 .item__price__amount {
   font-size: 1.3rem;
+  font-weight: 200;
 }
 
 .remove__icon {
