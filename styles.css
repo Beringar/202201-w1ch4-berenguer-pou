@@ -136,3 +136,12 @@ a > .cart__order__status__icon {
 .item__price__amount {
   padding-right: 0.8rem;
 }
+
+.form__container {
+  padding: 1rem 0.8rem 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

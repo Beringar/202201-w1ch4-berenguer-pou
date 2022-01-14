@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Carrito Compra</title>
+  </head>
+  <body>
+    <div class="cart__container">
+      <header class="cart__header">
+        <h1 class="cart__title">Lista de la compra</h1>
+        <ul class="cart__header__menu">
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Principal</a>
+          </li>
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Lista</a>
+          </li>
+          <li class="cart__header__menu__item">
+            <a href="#" class="menu__link">Acerca de la lista</a>
+          </li>
+        </ul>
+      </header>
+      <main class="cart__order__container">
+        <section class="cart__order__status">
+          <a href="/index.html"
+            ><i class="cart__order__status__icon fas fa-minus-circle"> </i
+          ></a>
+          <h2 class="order-status__accumulated">2/3 comprados</h2>
+        </section>
+        <section class="form__container">
+          <form action="#" class="form">
+            <h2 class="form__title">Editar artículo</h2>
+            <label for="product-name">Nombre:</label>
+            <input type="text" id="product-name" />
+            <label for="product-price">Precio:</label>
+            <input type="text" id="product-price" /><span class="euro-symbol"
+              >€</span
+            >
+            <input type="submit" value="Modificar" />
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
